@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+#!c:/ProgramData/Anaconda3/python.exe
 #
 #Example file for formatting time and date output
 #
