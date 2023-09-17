@@ -38,6 +38,5 @@ class Circle(object):
 class Tire(Circle):
 
     def perimeter(self):
-        return Circle.perimeter(self)
+        return Circle.perimeter(self) * 1.25
     
-    _perimeter = perimeter  # If you can do this, so can your subclasses.  Now we're right back where we started. 

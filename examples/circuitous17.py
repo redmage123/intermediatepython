@@ -13,6 +13,8 @@ class Circle(object):
     version = '0.7'
      
      # This is an example of the flyweight design pattern. 
+     # Note that the __slots__ attribute is not inherited.  So if a subclass of circle 
+     # wants to add its own attributes it is free to do so. 
     __slots__ = ['diameter']  #Don't use the dictionary to store attributes, instead use the slots list. 
     def __init__(self,radius):
         self.radius = radius

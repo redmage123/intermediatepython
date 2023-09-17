@@ -20,6 +20,7 @@ class Circle(object):
 
     def area(self):
         c = self._perimeter()  #Complying with the ISO standard. 
+#        c = self.perimeter()  #Complying with the ISO standard. 
         r = c / pi /2.0       # Have to back the radius out of the perimeter. 
         return(pi * r ** 2.0) # then recalculate the radius and return it. 
 

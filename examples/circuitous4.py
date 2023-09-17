@@ -22,7 +22,7 @@ from random import random,seed
 seed(8675309)
 n = 10
 circles = [Circle(random()) for  _ in range(n)]
-print ('The aveage aea of ',n, ' random circles ')
+print ('The average area of ',n, ' random circles ')
 avg =  sum((c.area() for c in circles))
 print ('{:.1f}'.format(avg))
 
